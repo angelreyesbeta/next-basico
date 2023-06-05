@@ -13,7 +13,7 @@ interface Props{
 const HomePage: NextPage<Props> = ({pokemons}) => {
 
   return (
-    <Layout title="Hola mundo">
+    <Layout title="Home">
       
       <Grid.Container gap={2} justify='flex-start'>
         {
